@@ -244,12 +244,9 @@ img {
     margin-left: 2%;
 }
 
-
-
-
-
-
-
+#main-footer {
+    overflow: hidden;
+}
 
 
 
@@ -288,8 +285,9 @@ img {
         margin-bottom: 2%;
     }
     
-    .home-image-container {
-        margin-bottom: 4%;
+    #amats-logo, #natsap-logo {
+        width: 100%;
+        height: auto;
     }
     
 
@@ -359,7 +357,7 @@ img {
     }
     
     .section-header {
-        margin-top: 2%;
+        margin-top: 0;
     }
     
     .home-body-text {
@@ -375,7 +373,41 @@ img {
     }
     
     .home-section-text {
-        margin-top: -1%;
+        margin-top: -2%;
+    }
+    
+    #amats-logo {
+        width: 75px;
+        height: 32px;
+        float: left;
+    }
+    
+    #natsap-logo {
+        width: 75px;
+        height: 109px;
+        float: left;
+    }
+    
+    #footer-left {
+        float: left;
+        width: 35%;
+    }
+    
+    #footer-right {
+        float: right;
+        width: 65%;
+    }
+    
+    #contact-info {
+        margin-top: 6%;
+    }
+    
+    #natsap {
+      margin-top: 4%;
+    }
+    
+    .footer-right-p {
+        margin-left: 14%;
     }
 }
 
