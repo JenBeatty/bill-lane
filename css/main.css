@@ -61,7 +61,7 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font: 16px/26px 'Muli', sans-serif;
 }
 
 .wrapper {
@@ -74,18 +74,18 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    /*border-bottom: 20px solid #e44d26;*/
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    /*border-top: 20px solid #e44d26;*/
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    /*background: #f16529;*/
 }
 
 .title {
@@ -95,6 +95,11 @@ body {
 /* ==============
     MOBILE: Menu
    ============== */
+
+nav {
+    background: #ffffff;
+    margin-bottom: 2%;
+}
 
 nav ul {
     margin: 0;
@@ -108,18 +113,22 @@ nav a {
 
     text-align: center;
     text-decoration: none;
+    font-family: 'Kameron', serif;
     font-weight: bold;
 
-    color: white;
-    background: #e44d26;
+    color: #5b5b5b;
 }
 
 nav a:hover,
 nav a:visited {
-    color: white;
+    color: #a2a6a5;
 }
 
 nav a:hover {
+    text-decoration: none;
+}
+
+.current-nav {
     text-decoration: underline;
 }
 
@@ -128,7 +137,7 @@ nav a:hover {
    ============== */
 
 .main {
-    padding: 30px 0;
+    padding: 10px 0 0 0;
 }
 
 .main article h1 {
@@ -157,10 +166,83 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+body {
+    background-color: #205867;
+}
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kameron', serif;
+}
 
+a {
+    color: #711724;
+    text-decoration: none;
+}
 
+a:hover {
+    color: #a2a6a5;
+    text-decoration: none;
+}
 
+.logo-container {
+        float: left;
+        width: 130px;
+        height: 130px;
+}
+
+.section-header {
+    color: #711724;
+   /* margin: 0;*/
+}
+
+.header-container {
+    background: #205867;
+    margin: 2% 0;
+}
+
+#header-text {
+    float: right;
+    margin-top: 6%;
+    color: #ffffff;
+    font-size: 1.625em;
+    letter-spacing: 2px;
+    text-transform:uppercase;
+}
+
+.home-section-text {
+    font-size: .813em;
+    line-height: 190%;
+}
+
+.footer-container {
+    background: #205867;
+}
+
+.main aside {
+    background: #ffffff;
+}
+
+.main-content-block {
+    background-color: #ffffff;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+#footer {
+    background: #ffffff;
+    margin-bottom: 2%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#copyright {
+    color: #282828;
+    font-size: .813em;
+    margin-left: 2%;
+}
 
 
 
@@ -183,10 +265,11 @@ nav a:hover {
 
     nav a {
         float: left;
-        width: 27%;
+        /*width: 27%;*/
         margin: 0 1.7%;
         padding: 25px 2%;
         margin-bottom: 0;
+        font-size: 1.250em;
     }
 
     nav li:first-child a {
@@ -196,6 +279,19 @@ nav a:hover {
     nav li:last-child a {
         margin-right: 0;
     }
+    
+    .home-body-text {
+        margin-left: 0;
+    }
+    
+    .home-image-container {
+        margin-bottom: 2%;
+    }
+    
+    .home-image-container {
+        margin-bottom: 4%;
+    }
+    
 
 /* ========================
     INTERMEDIATE: IE Fixes
@@ -218,9 +314,9 @@ nav a:hover {
 
     .header-container,
     .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
+        /*-webkit-box-shadow: 0 5px 10px #aaa;
            -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;*/
     }
 
 /* ============
@@ -233,7 +329,7 @@ nav a:hover {
 
     nav {
         float: right;
-        width: 38%;
+        width: 100%;
     }
 
 /* ============
@@ -242,7 +338,7 @@ nav a:hover {
 
     .main article {
         float: left;
-        width: 57%;
+        width: 100%;
     }
 
     .main aside {
@@ -260,6 +356,26 @@ nav a:hover {
     .wrapper {
         width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
+    }
+    
+    .section-header {
+        margin-top: 2%;
+    }
+    
+    .home-body-text {
+        margin-left: 32%;
+        margin-bottom: 2%;
+    }
+    
+    .home-image-container {
+        margin-bottom: 0;
+        float: left;
+        width: 289px;
+        height: 157px;
+    }
+    
+    .home-section-text {
+        margin-top: -1%;
     }
 }
 
