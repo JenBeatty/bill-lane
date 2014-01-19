@@ -168,7 +168,6 @@ nav a:hover {
 
 body {
     background-color: #205867;
-    max-width: 90%;
     margin: 0 auto;
 }
 
@@ -185,12 +184,6 @@ a:hover {
     color: #a2a6a5;
     text-decoration: none;
 }
-
-/*.logo-container {
-        float: left;
-        width: 130px;
-        height: 130px;
-}*/
 
 header h1 {
     background-image: url('../img/logo.png');
@@ -216,6 +209,7 @@ header h1 {
     font-size: 1.625em;
     letter-spacing: 2px;
     text-transform:uppercase;
+    line-height: 130%;
 }
 
 .home-section-text {
@@ -242,7 +236,7 @@ header h1 {
     margin-bottom: 2%;
 }
 
-img {
+.flex-img {
     width: 100%;
     height: auto;
 }
@@ -294,11 +288,27 @@ img {
         margin-bottom: 2%;
     }
     
-    #amats-logo, #natsap-logo {
-        width: 100%;
-        height: auto;
+    .top-footer-section-header {
+        color: #711724;
     }
     
+    #amats-logo {
+        width: 75px;
+        height: 32px;
+        float: left;
+        margin-right: 2%;
+    }
+    
+    #natsap-logo {
+        width: 75px;
+        height: 109px;
+        float: left;
+        margin-right: 2%;
+    }
+    
+    .footer-right-p {
+        margin-left: 25%;
+    }
 
 /* ========================
     INTERMEDIATE: IE Fixes
@@ -352,21 +362,21 @@ img {
         float: right;
         width: 28%;
     }
-}
-
-@media only screen and (min-width: 1140px) {
-
-/* ===============
-    Maximal Width
-   =============== */
-
-    .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
-        margin: 0 auto;
+    
+    #header-text {
+        margin-top: 10%;
+        width: 70%;
     }
     
     .section-header {
         margin-top: 0;
+        margin-left: 20%;
+    }
+    
+    .top-footer-section-header {
+        margin-left: 0;
+        margin-top: 0;
+        color: #711724;
     }
     
     .home-body-text {
@@ -383,18 +393,11 @@ img {
     
     .home-section-text {
         margin-top: -2%;
+        margin-left: 20%;
     }
     
-    #amats-logo {
-        width: 75px;
-        height: 32px;
-        float: left;
-    }
-    
-    #natsap-logo {
-        width: 75px;
-        height: 109px;
-        float: left;
+    .footer-right-p {
+        margin-left: 20%;
     }
     
     #footer-left {
@@ -413,6 +416,31 @@ img {
     
     #natsap {
       margin-top: 4%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+    
+    #header-text {
+        margin-top: 6%;
+        width: 80%;
+    }
+    
+    .section-header {
+        margin-left: 0;
+    }
+    
+    .home-section-text {
+        margin-left: 0;
     }
     
     .footer-right-p {
