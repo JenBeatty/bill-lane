@@ -168,6 +168,8 @@ nav a:hover {
 
 body {
     background-color: #205867;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -184,10 +186,17 @@ a:hover {
     text-decoration: none;
 }
 
-.logo-container {
+/*.logo-container {
         float: left;
         width: 130px;
         height: 130px;
+}*/
+
+header h1 {
+    background-image: url('../img/logo.png');
+    width: 130px;
+    height: 130px;
+    float: left;
 }
 
 .section-header {
