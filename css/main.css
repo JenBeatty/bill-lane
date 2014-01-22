@@ -202,7 +202,8 @@ header h1 {
 
 .section-header {
     color: #711724;
-   /* margin: 0;*/
+   text-transform: uppercase;
+   font-weight: 300;
 }
 
 .header-container {
@@ -304,6 +305,8 @@ header h1 {
     
     .top-footer-section-header {
         color: #711724;
+        text-transform: uppercase;
+        font-weight: 300;
     }
     
     #amats-logo {
@@ -394,6 +397,11 @@ header h1 {
         margin-left: 0;
         margin-top: 0;
         color: #711724;
+    }
+    
+    .page-heading {
+        margin-top: 0;
+		color: #711724;        
     }
     
     .home-body-text {
