@@ -211,12 +211,11 @@ header h1 {
 }
 
 #header-text {
-    float: right;
     margin-top: 6%;
-    color: #ffffff;
     letter-spacing: 2px;
     text-transform:uppercase;
-    line-height: 130%;
+    line-height: 110%;
+    color: #a2a6a5;
 }
 
 .home-section-text {
@@ -287,6 +286,14 @@ header h1 {
         margin-right: 0;
     }
     
+    #header-text { 
+        margin-top: 9%;
+        width: 80%;
+        text-align: left;
+        font-size: 1.525em;
+        clear: both;
+    }
+    
     .home-body-text {
         margin-left: 0;
     }
@@ -317,10 +324,6 @@ header h1 {
         margin-left: 25%;
     }
     
-    #header-text {
-        font-size: 1.525em;
-    }
-
 /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
@@ -375,9 +378,11 @@ header h1 {
     }
     
     #header-text {
-        margin-top: 10%;
         width: 70%;
         font-size: 1.625em;
+        float: right;
+        text-align: right;
+        clear: none;
     }
     
     .section-header {
@@ -440,11 +445,6 @@ header h1 {
     .wrapper {
         width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
-    }
-    
-    #header-text {
-        margin-top: 6%;
-        width: 80%;
     }
     
     .section-header {
