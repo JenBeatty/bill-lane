@@ -254,6 +254,10 @@ header h1 {
     margin-left: 2%;
 }
 
+.footer-heading-bottom {
+    margin-bottom: -3%;
+}
+
 #main-footer {
     overflow: hidden;
 }
