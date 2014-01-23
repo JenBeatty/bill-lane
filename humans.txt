@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    ManeBrand -- http://manebrand.com -- @Mane_Brand
+    
+    Lindsay Beckman -- Project Lead, Creative Director, Lead Development & Design ?? -- @Lindsay_Lu
+    Jennifer Beatty -- Designer/Front End Developer -- @jenniferlbeatty
+
+# THANKS
+
+    HTML5 Boilerplate
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
