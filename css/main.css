@@ -193,7 +193,7 @@ nav, .shadow {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-#header-font-weight {
+.normal-font-weight {
     font-weight: 400;
 }
 
@@ -215,7 +215,7 @@ header h1 {
     margin: 2% 0 .5% 0;
 }
 
-#header-text {
+.top-header-text {
     margin-top: 6%;
     letter-spacing: 2px;
     text-transform:uppercase;
@@ -242,7 +242,7 @@ header h1 {
     margin-bottom: 2%;
 }
 
-#footer {
+.white-bg-top-margin {
     background: #ffffff;
     margin-bottom: 2%;
 }
@@ -252,7 +252,7 @@ header h1 {
     height: auto;
 }
 
-#copyright {
+.grey-sm-font-left-margin {
     color: #282828;
     font-size: .813em;
     margin-left: 2%;
@@ -262,7 +262,7 @@ header h1 {
     margin-bottom: -3%;
 }
 
-#main-footer {
+.overflow-hidden {
     overflow: hidden;
 }
 
@@ -295,7 +295,7 @@ header h1 {
         margin-right: 0;
     }
     
-    #header-text { 
+    .top-header-text { 
         margin-top: 9%;
         width: 80%;
         text-align: left;
@@ -317,21 +317,21 @@ header h1 {
         font-weight: 300;
     }
     
-    #amats-logo {
+    .img-amats {
         width: 75px;
         height: 32px;
         float: left;
         margin-right: 2%;
     }
     
-    #natsap-logo {
+    .img-natsap {
         width: 75px;
         height: 109px;
         float: left;
         margin-right: 2%;
     }
     
-    .footer-right-p {
+    .p-left-margin {
         margin-left: 25%;
     }
     
@@ -388,7 +388,7 @@ header h1 {
         width: 28%;
     }
     
-    #header-text {
+    .top-header-text {
         width: 70%;
         font-size: 1.625em;
         float: right;
@@ -429,25 +429,25 @@ header h1 {
         margin-left: 20%;
     }
     
-    .footer-right-p {
+    .p-left-margin {
         margin-left: 20%;
     }
     
-    #footer-left {
+    .float-left-width-thirty-five {
         float: left;
         width: 35%;
     }
     
-    #footer-right {
+    .float-right-sixty-five {
         float: right;
         width: 65%;
     }
     
-    #contact-info {
+    .top-margin-six-percent {
         margin-top: 6%;
     }
     
-    #natsap {
+    .top-margin-four-percent {
       margin-top: 4%;
     }
 }
@@ -471,8 +471,12 @@ header h1 {
         margin-left: 0;
     }
     
-    .footer-right-p {
+    .p-left-margin {
         margin-left: 14%;
+    }
+    
+    .white-bg-top-margin {
+    margin-bottom: 2%;
     }
 }
 
