@@ -413,7 +413,7 @@ header h1 {
     
     .left-margin-twelve-percent-heading {
         margin-top: 0;
-        margin-left: 12%;
+        margin-left: 18%;
     }
     
     .left-margin-zero-heading {
@@ -452,7 +452,7 @@ header h1 {
         margin-bottom: 0;
         clear: both;
         float: left;
-        width: 65%;
+        width: 63%;
         padding-top: 1.5em;
     }
     
@@ -489,7 +489,7 @@ header h1 {
     
     .margin-left-twelve-percent-text {
         margin-top: -2%;
-        margin-left: 12%;
+        margin-left: 18%;
     }
     
     .p-left-margin {
@@ -546,12 +546,12 @@ header h1 {
         width: 74%;
     }
     
-    .margin-left-twelve-percent-text {
+    .margin-left-twelve-percent-text {   /*rename this!*/
         margin-top: -2%;
         margin-left: 0;
     }
     
-    .left-margin-twelve-percent-heading {
+    .left-margin-twelve-percent-heading { /*rename this!*/
         margin-left: 0;
     }
 }
