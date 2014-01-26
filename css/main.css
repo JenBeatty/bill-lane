@@ -205,9 +205,14 @@ header h1 {
 }
 
 .section-header {
-    color: #711724;
+   color: #711724;
    text-transform: uppercase;
    font-weight: 300;
+}
+
+.left-margin-twelve-percent-heading, .left-margin-zero-heading {
+    color: #711724;
+    font-weight: 400;
 }
 
 .header-container {
@@ -406,6 +411,21 @@ header h1 {
         margin-left: 20%;
     }
     
+    .left-margin-twelve-percent-heading {
+        margin-top: 0;
+        margin-left: 12%;
+    }
+    
+    .left-margin-zero-heading {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    
+    .margin-left-zero-text {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    
     .top-footer-section-header {
         margin-left: 0;
         margin-top: 0;
@@ -432,7 +452,7 @@ header h1 {
         margin-bottom: 0;
         clear: both;
         float: left;
-        width: 74%;
+        width: 65%;
         padding-top: 1.5em;
     }
     
@@ -465,6 +485,11 @@ header h1 {
     .home-section-text {
         margin-top: -2%;
         margin-left: 20%;
+    }
+    
+    .margin-left-twelve-percent-text {
+        margin-top: -2%;
+        margin-left: 12%;
     }
     
     .p-left-margin {
@@ -515,6 +540,19 @@ header h1 {
     
     .white-bg-top-margin {
     margin-bottom: 2%;
+    }
+    
+    .team-left-body-text {
+        width: 74%;
+    }
+    
+    .margin-left-twelve-percent-text {
+        margin-top: -2%;
+        margin-left: 0;
+    }
+    
+    .left-margin-twelve-percent-heading {
+        margin-left: 0;
     }
 }
 
