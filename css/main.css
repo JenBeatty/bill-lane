@@ -210,7 +210,7 @@ header h1 {
    font-weight: 300;
 }
 
-.left-margin-twelve-percent-heading, .left-margin-zero-heading {
+.margin-left-heading, .left-margin-zero-heading {
     color: #711724;
     font-weight: 400;
 }
@@ -274,6 +274,11 @@ header h1 {
 
 .overflow-hidden {
     overflow: hidden;
+}
+
+.less, .more, .open, .close {
+    color: #1f4e5a;
+    cursor: pointer;
 }
 
 
@@ -411,7 +416,7 @@ header h1 {
         margin-left: 20%;
     }
     
-    .left-margin-twelve-percent-heading {
+    .margin-left-heading {
         margin-top: 0;
         margin-left: 18%;
     }
@@ -487,9 +492,13 @@ header h1 {
         margin-left: 20%;
     }
     
-    .margin-left-twelve-percent-text {
+    .margin-left-text {
         margin-top: -2%;
         margin-left: 18%;
+    }
+    
+    .add-top-margin {
+        margin-top: 2% !important;
     }
     
     .p-left-margin {
@@ -546,12 +555,12 @@ header h1 {
         width: 74%;
     }
     
-    .margin-left-twelve-percent-text {   /*rename this!*/
+    .margin-left-text {
         margin-top: -2%;
         margin-left: 0;
     }
     
-    .left-margin-twelve-percent-heading { /*rename this!*/
+    .margin-left-heading {
         margin-left: 0;
     }
 }
