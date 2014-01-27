@@ -295,6 +295,12 @@ header h1 {
 	line-height: 190%;
 }
 
+.uppercase-regular-weight-heading {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #711724;
+}
+
 
 
 /* ==========================================================================
