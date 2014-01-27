@@ -281,6 +281,20 @@ header h1 {
     cursor: pointer;
 }
 
+.center-capitalized-heading {
+    margin-left: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #711724;
+}
+
+.centered-large-text {
+    text-align: center;
+	font-size: 1.5em;
+	line-height: 190%;
+}
+
 
 
 /* ==========================================================================
