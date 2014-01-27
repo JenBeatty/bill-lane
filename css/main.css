@@ -119,13 +119,13 @@ nav a {
     color: #5b5b5b;
 }
 
-nav a:hover,
-nav a:visited {
+nav a:hover, {
     color: #a2a6a5;
+    text-decoration: none;
 }
 
-nav a:hover {
-    text-decoration: none;
+nav a:visited {
+    color #5b5b5b;
 }
 
 .current-nav {
