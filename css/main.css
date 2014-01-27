@@ -276,7 +276,7 @@ header h1 {
     overflow: hidden;
 }
 
-.less, .more, .open, .close {
+.billless, .billmore, .carolless, .carolmore, .bobless, .bobmore, .johnless, .johnmore, .janetless, .janetmore {
     color: #1f4e5a;
     cursor: pointer;
 }
