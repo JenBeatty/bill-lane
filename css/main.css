@@ -119,7 +119,7 @@ nav a {
     color: #5b5b5b;
 }
 
-nav a:hover, {
+nav a:hover {
     color: #a2a6a5;
     text-decoration: none;
 }
@@ -129,7 +129,8 @@ nav a:visited {
 }
 
 .current-nav {
-    text-decoration: underline;
+    color: #a2a6a5;     
+    text-decoration: none;
 }
 
 /* ==============
