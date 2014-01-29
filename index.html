@@ -44,7 +44,13 @@
                 <nav>
                     <ul>
                         <li><a href="index.html" class="current-nav">Home</a></li>
-                        <li><a href="bill-lane-difference.html">The Bill Lane Difference</a></li>
+                        <li><a href="bill-lane-difference.html">The Bill Lane Difference</a>
+                        	<ul class="fallback">
+                        		<li><a href="our-story.html">Our Story</a></li>
+                        		<li><a href="our-appraoch.html">Our Approach</a></li>
+                        		<li><a href="our-success.html">Our Success</a></li>
+                        	</ul>
+                        </li>
                         <li><a href="what-we-do.html">What We Do</a></li>
                         <li><a href="the-team.html">The Team</a></li>
                         <li><a href="contact-us.html">Contact Us</a></li>
@@ -131,8 +137,15 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-
         <script src="js/main.js"></script>
+        	<script>
+	$(function () {
+		$('nav li ul').hide().removeClass('fallback');
+		$('nav li').hover(function () {
+			$('ul', this).stop().slideToggle(200);
+		});
+	});
+	</script>
 
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];

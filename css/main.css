@@ -194,6 +194,16 @@ nav, .shadow {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
+/* Testing Nav Hover*/
+nav ul li ul {position:absolute;width:110px;background:#FFF;}
+nav ul li ul li {margin:0;padding:0;width:110px;}
+nav ul li ul li a {display:block;padding:15px 10px;color:#444;}
+nav ul li ul li:hover a {background:#F7F7F7;}
+nav ul li ul.fallback {display:none;}
+nav ul li:hover ul.fallback {display:block;}
+/* Testing Nav Hover*/
+
+
 .normal-font-weight {
     font-weight: 400;
 }
@@ -307,6 +317,13 @@ header h1 {
     width: 33.3%;
 }
 
+.unstyled-list {
+    list-style-type: none;
+}
+
+ul.unstyled-list li {
+    margin-bottom: 1.5%;
+}
 
 
 /* ==========================================================================
