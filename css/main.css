@@ -323,6 +323,14 @@ ul.unstyled-list li {
     margin-bottom: 1.5%;
 }
 
+.center-columns {
+    margin-left: 2.6%;
+}
+
+.red-text {
+    color: #711724;
+}
+
 
 /* ==========================================================================
    Media Queries
