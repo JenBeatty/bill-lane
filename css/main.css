@@ -259,6 +259,8 @@ header h1 {
     background-color: #ffffff;
     padding: 2%;
     margin-bottom: 2%;
+    z-index: -1;
+    position: relative;
 }
 
 .white-bg-top-margin {
