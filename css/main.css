@@ -666,7 +666,8 @@ ul.unstyled-list li {
 
 .three-col-div {
     float: left;
-    width: 33.3%;
+    width: 31.3%;
+    margin-right: 2%;
     clear: none;
 }
 
