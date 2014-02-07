@@ -69,28 +69,6 @@ body {
     margin: 0 5%;
 }
 
-/* ===================
-    ALL: Orange Theme
-   =================== */
-
-.header-container {
-    /*border-bottom: 20px solid #e44d26;*/
-}
-
-.footer-container,
-.main aside {
-    /*border-top: 20px solid #e44d26;*/
-}
-
-.header-container,
-.footer-container,
-.main aside {
-    /*background: #f16529;*/
-}
-
-.title {
-    color: white;
-}
 
 /* ==============
     MOBILE: Menu
@@ -104,7 +82,7 @@ nav {
 }
 
 nav ul {
-    margin: 0;
+    margin: 0 0 0 2.5%;
     padding: 0;
 }
 
@@ -130,23 +108,6 @@ nav a:visited {
     color #5b5b5b;
 }
 
-.current-nav {
-    color: #a2a6a5;     
-    text-decoration: none;
-}
-
-nav ul li ul {
-	position:absolute; 
-	top: 70px; 
-	right: 640px; 
-	width:220px;
-	background:#FFF; 
-	z-index: 1;
-}
-nav ul li ul li {margin:0;padding:0;width:inherit;}
-nav ul li ul li a {display:block;padding:15px 10px;color:#444;}
-nav ul li ul.fallback {display:none;}
-nav ul li:hover ul.fallback {display:block;}
 
 /* ==============
     MOBILE: Main
@@ -187,6 +148,24 @@ body {
     background-color: #205867;
     margin: 0 auto;
 }
+
+.current-nav {
+    color: #a2a6a5;     
+    text-decoration: none;
+}
+
+nav ul li ul {
+	position:absolute; 
+	top: 70px; 
+	right: 640px; 
+	width:220px;
+	background:#FFF; 
+	z-index: 1;
+}
+nav ul li ul li {margin:0;padding:0;width:inherit;}
+nav ul li ul li a {display:block;padding:15px 10px;color:#444;}
+nav ul li ul.fallback {display:none;}
+nav ul li:hover ul.fallback {display:block;}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Kameron', serif;
@@ -378,7 +357,7 @@ ul.unstyled-list li {
     }
     
     .top-header-text { 
-        margin-top: 9%;
+        margin-top: 42%;
         width: 80%;
         text-align: left;
         font-size: 1.525em;
@@ -440,6 +419,13 @@ ul.unstyled-list li {
     }
 }
 
+@media only screen and (min-width: 580px) {
+
+.top-header-text {
+    margin-top: 35%;
+}
+}
+
 @media only screen and (min-width: 768px) {
 
 /* ====================
@@ -466,6 +452,15 @@ ul.unstyled-list li {
         width: 100%;
     }
 
+nav ul li ul {
+	position:absolute; 
+	top: 70px; 
+	right: 330px; 
+	width:220px;
+	background:#FFF; 
+	z-index: 1;
+}
+
 /* ============
     WIDE: Main
    ============ */
@@ -486,6 +481,7 @@ ul.unstyled-list li {
         float: right;
         text-align: right;
         clear: none;
+        margin-top: 9%;
     }
     
     .section-header {
@@ -532,9 +528,9 @@ ul.unstyled-list li {
     
     .team-left-body-text {
         margin-bottom: 0;
-        clear: both;
+        /*clear: both;*/
         float: left;
-        width: 63%;
+        width: 62%;
         padding-top: 1.5em;
     }
     
@@ -620,6 +616,19 @@ ul.unstyled-list li {
     }
 }
 
+@media only screen and (min-width: 874px) {
+
+nav ul li ul {
+	position:absolute; 
+	top: 70px; 
+	right: 430px; 
+	width:220px;
+	background:#FFF; 
+	z-index: 1;
+}
+
+}
+
 @media only screen and (min-width: 1140px) {
 
 /* ===============
@@ -664,11 +673,24 @@ ul.unstyled-list li {
     width: 52%;
 }
 
+.carol-top {
+    margin-top: 7%;
+}
+
 .three-col-div {
     float: left;
     width: 31.3%;
     margin-right: 2%;
     clear: none;
+}
+
+nav ul li ul {
+	position:absolute; 
+	top: 70px; 
+	right: 620px; 
+	width:220px;
+	background:#FFF; 
+	z-index: 1;
 }
 
 }
