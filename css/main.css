@@ -93,7 +93,7 @@ nav a {
 
     text-align: center;
     text-decoration: none;
-    font-family: 'Kameron', serif;
+    font-family: 'Adamina', serif;
     font-weight: bold;
 
     color: #5b5b5b;
@@ -169,11 +169,11 @@ nav ul li ul.fallback {display:none;}
 nav ul li:hover ul.fallback {display:block;}
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Kameron', serif;
+    font-family: 'Adamina', serif;
 }
 
 .ampersand {
-	font-family: georgia, serif;
+	font-family: 'Adamina', serif;
 }
 
 a {
@@ -230,7 +230,7 @@ header h1 {
     margin-top: 6%;
     letter-spacing: 2px;
     line-height: 110%;
-    font-family: 'Kameron', serif;
+    font-family: 'Adamina', serif;
 }
 
 .home-section-text {
@@ -352,7 +352,7 @@ ul.unstyled-list li {
     
     .top-header-contact-text {
         font-size: 1.3em;
-        font-family: 'Kameron', serif;
+        font-family: 'Adamina', serif;
     }
 }
 
@@ -366,7 +366,7 @@ ul.unstyled-list li {
         float: left;
         /*width: 27%;*/
         margin: 0 1.7%;
-        padding: 25px 2%;
+        padding: 25px 1.6%;
         margin-bottom: 0;
         font-size: 1.250em;
     }
